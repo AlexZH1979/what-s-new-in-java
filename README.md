@@ -72,6 +72,26 @@ The [Java SE 11 Platform](https://openjdk.java.net/projects/jdk/11/) was defined
 
 ## Java 12 (non-LTS)
 
+The [Java SE 12 Platform](https://openjdk.java.net/projects/jdk/12/) was defined by [JSR 386](https://www.jcp.org/en/jsr/detail?id=386) in the Java Community Process.
+
+|             | Dates          |
+| ----------- | -------------- |
+| Released On | March 2019     |
+| End of life | September 2019 |
+
+### New Features
+
+| JEP                                          | Description                                                                                                                                                                 |
+| -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [JEP 189](https://openjdk.java.net/jeps/189) | [Shenandoah: A Low-Pause-Time Garbage Collector (Experimental)](Java%2012/JEP%20189%20-%20Shenandoah%3A%20A%20Low-Pause-Time%20Garbage%20Collector%20%28Experimental%29.md) |
+| [JEP 230](https://openjdk.java.net/jeps/230) | [Microbenchmark Suite](Java%2012/JEP%20230%20-%20Microbenchmark%20Suite.md)                                                                                                 |
+| [JEP 325](https://openjdk.java.net/jeps/325) | [Switch Expressions (Preview)](Java%2012/JEP%20325%20-%20Switch%20Expressions%20%28Preview%29.md)                                                                           |
+| [JEP 334](https://openjdk.java.net/jeps/334) | [JVM Constants API](Java%2012/JEP%20334%20-%20JVM%20Constants%20API.md)                                                                                                     |
+| [JEP 340](https://openjdk.java.net/jeps/340) | [One AArch64 Port, Not Two](Java%2012/JEP%20340%20-%20One%20AArch64%20Port%2C%20Not%20Two.md)                                                                               |
+| [JEP 341](https://openjdk.java.net/jeps/341) | [Default CDS Archives](Java%2012/JEP%20341%20-%20Default%20CDS%20Archives.md)                                                                                               |
+| [JEP 344](https://openjdk.java.net/jeps/344) | [Abortable Mixed Collections for G1](Java%2012/JEP%20344%20-%20Abortable%20Mixed%20Collections%20for%20G1.md)                                                               |
+| [JEP 346](https://openjdk.java.net/jeps/346) | [Promptly Return Unused Committed Memory from G1](Java%2012/JEP%20346%20-%20Promptly%20Return%20Unused%20Committed%20Memory%20from%20G1.md)                                 |
+
 ## Java 13 (non-LTS)
 
 ## Java 14 (non-LTS)
