@@ -1,13 +1,15 @@
 # What's new in Java
 
-1. [Java 8](#java-8-lts)
-1. [Java 9](#java-9-non-lts)
-1. [Java 10](#java-10-non-lts)
-1. [Java 11](#java-11-lts)
-1. [Java 12](#java-12-non-lts)
-1. [Java 13](#java-13-non-lts)
-1. [Java 14](#java-14-non-lts)
-1. [Java 15](#java-15-non-lts)
+| Java                        | Status                                               |
+| --------------------------- | ---------------------------------------------------- |
+| [Java 8](#java-8-lts)       |                                                      |
+| [Java 9](#java-9-non-lts)   | Not Supported, switch to [Java 11](#java-11-lts)     |
+| [Java 10](#java-10-non-lts) | Not Supported, switch to [Java 11](#java-11-lts)     |
+| [Java 11](#java-11-lts)     |                                                      |
+| [Java 12](#java-12-non-lts) | Not Supported, switch to [Java 14](#java-14-non-lts) |
+| [Java 13](#java-13-non-lts) | Not Supported, switch to [Java 14](#java-14-non-lts) |
+| [Java 14](#java-14-non-lts) |                                                      |
+| [Java 15](#java-15-non-lts) | Preview                                              |
 
 ## Java 8 (LTS)
 
@@ -94,6 +96,77 @@ The [Java SE 12 Platform](https://openjdk.java.net/projects/jdk/12/) was defined
 
 ## Java 13 (non-LTS)
 
+The [Java SE 13 Platform](https://openjdk.java.net/projects/jdk/13/) was defined by [JSR 388](https://www.jcp.org/en/jsr/detail?id=388) in the Java Community Process.
+
+|             | Dates          |
+| ----------- | -------------- |
+| Released On | September 2019 |
+| End of life | March 2020     |
+
+### New Features
+
+| JEP                                          | Description                                                                                                 |
+| -------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| [JEP 350](https://openjdk.java.net/jeps/350) | [Dynamic CDS Archives](Java%2013/JEP%20350%20-%20Dynamic%20CDS%20Archives.md)                               |
+| [JEP 351](https://openjdk.java.net/jeps/351) | [ZGC: Uncommit Unused Memory](Java%2013/JEP%20351%20-%20ZGC%3A%20Uncommit%20Unused%20Memory.md)             |
+| [JEP 353](https://openjdk.java.net/jeps/353) | [Reimplement the Legacy Socket API](Java%2013/JEP%20353%20-%20Reimplement%20the%20Legacy%20Socket%20API.md) |
+| [JEP 354](https://openjdk.java.net/jeps/354) | [Switch Expressions (Preview)](Java%2013/JEP%20354%20-%20Switch%20Expressions%20%28Preview%29.md)           |
+| [JEP 355](https://openjdk.java.net/jeps/355) | [Text Blocks (Preview)](Java%2013/JEP%20355%20-%20Text%20Blocks%20%28Preview%29.md)                         |
+
 ## Java 14 (non-LTS)
 
+The [Java SE 14 Platform](https://openjdk.java.net/projects/jdk/14/) was defined by [JSR 388](https://www.jcp.org/en/jsr/detail?id=388) in the Java Community Process.
+
+|             | Dates          |
+| ----------- | -------------- |
+| Released On | March 2020     |
+| End of life | September 2020 |
+
+### New Features
+
+| JEP                                          | Description                                                                                                                                                         |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [JEP 305](https://openjdk.java.net/jeps/305) | [Pattern Matching for instanceof (Preview)](Java%2014/JEP%20305%20-%20Pattern%20Matching%20for%20instanceof%20%28Preview%29.md)                                     |
+| [JEP 343](https://openjdk.java.net/jeps/343) | [Packaging Tool (Incubator)](Java%2014/JEP%20343%20-%20Packaging%20Tool%20%28Incubator%29.md)                                                                       |
+| [JEP 345](https://openjdk.java.net/jeps/345) | [NUMA-Aware Memory Allocation for G1](Java%2014/JEP%20345%20-%20NUMA-Aware%20Memory%20Allocation%20for%20G1.md)                                                     |
+| [JEP 349](https://openjdk.java.net/jeps/349) | [JFR Event Streaming](Java%2014/JEP%20349%20-%20JFR%20Event%20Streaming.md)                                                                                         |
+| [JEP 352](https://openjdk.java.net/jeps/352) | [Non-Volatile Mapped Byte Buffers](Java%2014/JEP%20352%20-%20Non-Volatile%20Mapped%20Byte%20Buffers.md)                                                             |
+| [JEP 358](https://openjdk.java.net/jeps/358) | [Helpful NullPointerExceptions](Java%2014/JEP%20358%20-%20Helpful%20NullPointerExceptions.md)                                                                       |
+| [JEP 359](https://openjdk.java.net/jeps/359) | [Records (Preview)](Java%2014/JEP%20359%20-%20Records%20%28Preview%29.md)                                                                                           |
+| [JEP 361](https://openjdk.java.net/jeps/361) | [Switch Expressions (Standard)](Java%2014/JEP%20361%20-%20Switch%20Expressions%20%28Standard%29.md)                                                                 |
+| [JEP 362](https://openjdk.java.net/jeps/362) | [Deprecate the Solaris and SPARC Ports](Java%2014/JEP%20362%20-%20Deprecate%20the%20Solaris%20and%20SPARC%20Ports.md)                                               |
+| [JEP 363](https://openjdk.java.net/jeps/363) | [Remove the Concurrent Mark Sweep (CMS) Garbage Collector](Java%2014/JEP%20363%20-%20Remove%20the%20Concurrent%20Mark%20Sweep%20%28CMS%29%20Garbage%20Collector.md) |
+| [JEP 364](https://openjdk.java.net/jeps/364) | [ZGC on macOS](Java%2014/JEP%20364%20-%20ZGC%20on%20macOS.md)                                                                                                       |
+| [JEP 365](https://openjdk.java.net/jeps/365) | [ZGC on Windows](Java%2014/JEP%20365%20-%20ZGC%20on%20Windows,md)                                                                                                   |
+| [JEP 366](https://openjdk.java.net/jeps/366) | [Deprecate the ParallelScavenge + SerialOld GC Combination](Java%2014/JEP%20366%20-%20Deprecate%20the%20ParallelScavenge%20%2B%20SerialOld%20GC%20Combination.md)   |
+| [JEP 367](https://openjdk.java.net/jeps/367) | [Remove the Pack200 Tools and API](Java%2014/JEP%20367%20-%20Remove%20the%20Pack200%20Tools%20and%20API.md)                                                         |
+| [JEP 368](https://openjdk.java.net/jeps/368) | [Text Blocks (Second Preview)](Java%2014/JEP%20368%20-%20Text%20Blocks%20%28Second%20Preview%29.md)                                                                 |
+| [JEP 370](https://openjdk.java.net/jeps/370) | [Foreign-Memory Access API (Incubator)](Java%2014/JEP%20370%20-%20Foreign-Memory%20Access%20API%20%28Incubator%29.md)                                               |
+
 ## Java 15 (non-LTS)
+
+The [Java SE 15 Platform](https://openjdk.java.net/projects/jdk/15/) was defined by [JSR 390](https://www.jcp.org/en/jsr/detail?id=390) in the Java Community Process.
+
+|             | Dates          |
+| ----------- | -------------- |
+| Released On | September 2020 |
+| End of life | March 2021     |
+
+### New Features
+
+| JEP                                          | Description                                                                                                                                     |
+| -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| [JEP 339](https://openjdk.java.net/jeps/339) | [Edwards-Curve Digital Signature Algorithm (EdDSA)](Java%2015/JEP%20339%20-%20Edwards-Curve%20Digital%20Signature%20Algorithm%20%28EdDSA%29.md) |
+| [JEP 360](https://openjdk.java.net/jeps/360) | [Sealed Classes (Preview)](Java%2015/JEP%20360%20-%20Sealed%20Classes%20%28Preview%29.md)                                                       |
+| [JEP 371](https://openjdk.java.net/jeps/371) | [Hidden Classes](Java%2015/JEP%20371%20-%20Hidden%20Classes.md)                                                                                 |
+| [JEP 372](https://openjdk.java.net/jeps/372) | [Remove the Nashorn JavaScript Engine](Java%2015/JEP%20372%20-%20Remove%20the%20Nashorn%20JavaScript%20Engine.md)                               |
+| [JEP 373](https://openjdk.java.net/jeps/373) | [Reimplement the Legacy DatagramSocket API](Java%2015/JEP%20373%20-%20Reimplement%20the%20Legacy%20DatagramSocket%20API.md)                     |
+| [JEP 374](https://openjdk.java.net/jeps/374) | [Disable and Deprecate Biased Locking](Java%2015/JEP%20374%20-%20Disable%20and%20Deprecate%20Biased%20Locking.md)                               |
+| [JEP 375](https://openjdk.java.net/jeps/375) | [Pattern Matching for instanceof (Second Preview)](Java%2015/JEP%20375%20-%20Pattern%20Matching%20for%20instanceof%20%28Second%20Preview%29.md) |
+| [JEP 377](https://openjdk.java.net/jeps/377) | [ZGC: A Scalable Low-Latency Garbage Collector](Java%2015/JEP%20377%20-%20ZGC%3A%20A%20Scalable%20Low-Latency%20Garbage%20Collector.md)         |
+| [JEP 378](https://openjdk.java.net/jeps/378) | [Text Blocks](Java%2015/JEP%20378%20-%20Text%20Blocks.md)                                                                                       |
+| [JEP 379](https://openjdk.java.net/jeps/379) | [Shenandoah: A Low-Pause-Time Garbage Collector](Java%2015/JEP%20379%20-%20Shenandoah%3A%20A%20Low-Pause-Time%20Garbage%20Collector.md)         |
+| [JEP 381](https://openjdk.java.net/jeps/381) | [Remove the Solaris and SPARC Ports](Java%2015/JEP%20381%20-%20Remove%20the%20Solaris%20and%20SPARC%20Ports.md)                                 |
+| [JEP 383](https://openjdk.java.net/jeps/383) | [Foreign-Memory Access API (Second Incubator)](Java%2015/JEP%20383%20-%20Foreign-Memory%20Access%20API%20%28Second%20Incubator%29.md)           |
+| [JEP 384](https://openjdk.java.net/jeps/384) | [Records (Second Preview)](Java%2015/JEP%20384%20-%20Records%20%28Second%20Preview%29.md)                                                       |
+| [JEP 385](https://openjdk.java.net/jeps/385) | [Deprecate RMI Activation for Removal](Java%2015/JEP%20385%20-%20Deprecate%20RMI%20Activation%20for%20Removal.md)                               |
