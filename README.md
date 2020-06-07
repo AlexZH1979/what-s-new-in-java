@@ -1,19 +1,185 @@
 # What's new in Java
 
-| Java                        | Status                                               |
-| --------------------------- | ---------------------------------------------------- |
-| [Java 8](#java-8-lts)       |                                                      |
-| [Java 9](#java-9-non-lts)   | Not Supported, switch to [Java 11](#java-11-lts)     |
-| [Java 10](#java-10-non-lts) | Not Supported, switch to [Java 11](#java-11-lts)     |
-| [Java 11](#java-11-lts)     |                                                      |
-| [Java 12](#java-12-non-lts) | Not Supported, switch to [Java 14](#java-14-non-lts) |
-| [Java 13](#java-13-non-lts) | Not Supported, switch to [Java 14](#java-14-non-lts) |
-| [Java 14](#java-14-non-lts) |                                                      |
-| [Java 15](#java-15-non-lts) | Preview                                              |
+| Java                        | Status                                                    |
+| --------------------------- | --------------------------------------------------------- |
+| [Java 8](#java-8-lts)       | **Supportd until March 2022**                             |
+| [Java 9](#java-9-non-lts)   | Not Supported, switch to [Java 11](#java-11-lts)          |
+| [Java 10](#java-10-non-lts) | Not Supported, switch to [Java 11](#java-11-lts)          |
+| [Java 11](#java-11-lts)     | **Supported until September 2023**                        |
+| [Java 12](#java-12-non-lts) | Not Supported, switch to [Java 14](#java-14-non-lts)      |
+| [Java 13](#java-13-non-lts) | Not Supported, switch to [Java 14](#java-14-non-lts)      |
+| [Java 14](#java-14-non-lts) | **Current Latest Relase, supportd until Septemnber 2020** |
+| [Java 15](#java-15-non-lts) | Preview                                                   |
 
 ## Java 8 (LTS)
 
+The [Java SE 8 Platform](https://openjdk.java.net/projects/jdk8/) was defined by [JSR 337](https://www.jcp.org/en/jsr/detail?id=337) in the Java Community Process.
+
+|             | Dates      |
+| ----------- | ---------- |
+| Released On | March 2014 |
+| End of life | March 2022 |
+
+### New Features
+
+--/-- 126 Lambda Expressions & Virtual Extension Methods
+138 Autoconf-Based Build System
+160 Lambda-Form Representation for Method Handles
+161 Compact Profiles
+162 Prepare for Modularization
+164 Leverage CPU Instructions for AES Cryptography
+174 Nashorn JavaScript Engine
+176 Mechanical Checking of Caller-Sensitive Methods
+179 Document JDK API Support and Stability
+vm/-- 142 Reduce Cache Contention on Specified Fields
+vm/gc 122 Remove the Permanent Generation
+173 Retire Some Rarely-Used GC Combinations
+vm/rt 136 Enhanced Verification Errors
+147 Reduce Class Metadata Footprint
+148 Small VM
+171 Fence Intrinsics
+core/-- 153 Launch JavaFX Applications
+core/lang 101 Generalized Target-Type Inference
+104 Annotations on Java Types
+105 DocTree API
+106 Add Javadoc to javax.tools
+117 Remove the Annotation-Processing Tool (apt)
+118 Access to Parameter Names at Runtime
+120 Repeating Annotations
+139 Enhance javac to Improve Build Speed
+172 DocLint
+core/libs 103 Parallel Array Sorting
+107 Bulk Data Operations for Collections
+109 Enhance Core Libraries with Lambda
+112 Charset Implementation Improvements
+119 javax.lang.model Implementation Backed by Core Reflection
+135 Base64 Encoding & Decoding
+149 Reduce Core-Library Memory Usage
+150 Date & Time API
+155 Concurrency Updates
+170 JDBC 4.2
+177 Optimize java.text.DecimalFormat.format
+178 Statically-Linked JNI Libraries
+180 Handle Frequent HashMap Collisions with Balanced Trees
+core/i18n 127 Improve Locale Data Packaging and Adopt Unicode CLDR Data
+128 BCP 47 Locale Matching
+133 Unicode 6.2
+core/net 184 HTTP URL Permissions
+core/sec 113 MS-SFU Kerberos 5 Extensions
+114 TLS Server Name Indication (SNI) Extension
+115 AEAD CipherSuites
+121 Stronger Algorithms for Password-Based Encryption
+123 Configurable Secure Random-Number Generation
+124 Enhance the Certificate Revocation-Checking API
+129 NSA Suite B Cryptographic Algorithms
+130 SHA-224 Message Digests
+131 PKCS#11 Crypto Provider for 64-bit Windows
+140 Limited doPrivileged
+166 Overhaul JKS-JCEKS-PKCS12 Keystores
+web/jaxp 185 Restrict Fetching of External XML Resources
+
 ## Java 9 (non-LTS)
+
+The [Java SE 9 Platform](https://openjdk.java.net/projects/jdk9/) was defined by [JSR 379](https://www.jcp.org/en/jsr/detail?id=379) in the Java Community Process.
+
+|             | Dates          |
+| ----------- | -------------- |
+| Released On | September 2017 |
+| End of life | March 2018     |
+
+### New Features
+
+102: Process API Updates
+110: HTTP 2 Client
+143: Improve Contended Locking
+158: Unified JVM Logging
+165: Compiler Control
+193: Variable Handles
+197: Segmented Code Cache
+199: Smart Java Compilation, Phase Two
+200: The Modular JDK
+201: Modular Source Code
+211: Elide Deprecation Warnings on Import Statements
+212: Resolve Lint and Doclint Warnings
+213: Milling Project Coin
+214: Remove GC Combinations Deprecated in JDK 8
+215: Tiered Attribution for javac
+216: Process Import Statements Correctly
+217: Annotations Pipeline 2.0
+219: Datagram Transport Layer Security (DTLS)
+220: Modular Run-Time Images
+221: Simplified Doclet API
+222: jshell: The Java Shell (Read-Eval-Print Loop)
+223: New Version-String Scheme
+224: HTML5 Javadoc
+225: Javadoc Search
+226: UTF-8 Property Files
+227: Unicode 7.0
+228: Add More Diagnostic Commands
+229: Create PKCS12 Keystores by Default
+231: Remove Launch-Time JRE Version Selection
+232: Improve Secure Application Performance
+233: Generate Run-Time Compiler Tests Automatically
+235: Test Class-File Attributes Generated by javac
+236: Parser API for Nashorn
+237: Linux/AArch64 Port
+238: Multi-Release JAR Files
+240: Remove the JVM TI hprof Agent
+241: Remove the jhat Tool
+243: Java-Level JVM Compiler Interface
+244: TLS Application-Layer Protocol Negotiation Extension
+245: Validate JVM Command-Line Flag Arguments
+246: Leverage CPU Instructions for GHASH and RSA
+247: Compile for Older Platform Versions
+248: Make G1 the Default Garbage Collector
+249: OCSP Stapling for TLS
+250: Store Interned Strings in CDS Archives
+251: Multi-Resolution Images
+252: Use CLDR Locale Data by Default
+253: Prepare JavaFX UI Controls & CSS APIs for Modularization
+254: Compact Strings
+255: Merge Selected Xerces 2.11.0 Updates into JAXP
+256: BeanInfo Annotations
+257: Update JavaFX/Media to Newer Version of GStreamer
+258: HarfBuzz Font-Layout Engine
+259: Stack-Walking API
+260: Encapsulate Most Internal APIs
+261: Module System
+262: TIFF Image I/O
+263: HiDPI Graphics on Windows and Linux
+264: Platform Logging API and Service
+265: Marlin Graphics Renderer
+266: More Concurrency Updates
+267: Unicode 8.0
+268: XML Catalogs
+269: Convenience Factory Methods for Collections
+270: Reserved Stack Areas for Critical Sections
+271: Unified GC Logging
+272: Platform-Specific Desktop Features
+273: DRBG-Based SecureRandom Implementations
+274: Enhanced Method Handles
+275: Modular Java Application Packaging
+276: Dynamic Linking of Language-Defined Object Models
+277: Enhanced Deprecation
+278: Additional Tests for Humongous Objects in G1
+279: Improve Test-Failure Troubleshooting
+280: Indify String Concatenation
+281: HotSpot C++ Unit-Test Framework
+282: jlink: The Java Linker
+283: Enable GTK 3 on Linux
+284: New HotSpot Build System
+285: Spin-Wait Hints
+287: SHA-3 Hash Algorithms
+288: Disable SHA-1 Certificates
+289: Deprecate the Applet API
+290: Filter Incoming Serialization Data
+291: Deprecate the Concurrent Mark Sweep (CMS) Garbage Collector
+292: Implement Selected ECMAScript 6 Features in Nashorn
+294: Linux/s390x Port
+295: Ahead-of-Time Compilation
+297: Unified arm32/arm64 Port
+298: Remove Demos and Samples
+299: Reorganize Documentation
 
 ## Java 10 (non-LTS)
 
