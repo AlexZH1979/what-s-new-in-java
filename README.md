@@ -50,25 +50,25 @@ The [Java SE 11 Platform](https://openjdk.java.net/projects/jdk/11/) was defined
 
 ### New Features
 
-| JEP                                          | Description                                                                                                                           |
-| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| [JEP 181](https://openjdk.java.net/jeps/181) | [Nest-Based Access Control](Java%2011/JEP%20181%20-%20Nest-Based%20Access%20Control.md)                                               |
-| [JEP 309](https://openjdk.java.net/jeps/309) | [Dynamic Class-File Constants](Java%2011/JEP%20309%20-%20Dynamic%20Class-File%20Constants.md)                                         |
-| [JEP 315](https://openjdk.java.net/jeps/315) | [Improve Aarch64 Intrinsics](Java%2011/JEP%20315%20-%20Improve%20Aarch64%20Intrinsics.md)                                             |
-| [JEP 318](https://openjdk.java.net/jeps/318) | [Epsilon: A No-Op Garbage Collector](Java%2011/JEP%20318%20-%20Epsilon%3A%20A%20No-Op%20Garbage%20Collector.md)                       |
-| [JEP 320](https://openjdk.java.net/jeps/320) | [Remove the Java EE and CORBA Modules](Java%2011/JEP%20320%20-%20Remove%20the%20Java%20EE%20and%20CORBA%20Modules.md)                 |
-| [JEP 321](https://openjdk.java.net/jeps/321) | [HTTP Client (Standard)](Java%2011/JEP%20321%20-%20HTTP%20Client%20%28Standard%29.md)                                                 |
-| [JEP 323](https://openjdk.java.net/jeps/323) | [Local-Variable Syntax for Lambda Parameters](Java%2011/JEP%20323%20-%20Local-Variable%20Syntax%20for%20Lambda%20Parameters.md)       |
-| [JEP 324](https://openjdk.java.net/jeps/324) | [Key Agreement with Curve25519 and Curve448](Java%2011/JEP%20324%20-%20Key%20Agreement%20with%20Curve25519%20and%20Curve448.md)       |
-| [JEP 327](https://openjdk.java.net/jeps/327) | [Unicode 10](Java%2011/JEP%20327%20-%20Unicode%2010.md)                                                                               |
-| [JEP 328](https://openjdk.java.net/jeps/328) | [Flight Recorder](Java%2011/JEP%20328%20-%20Flight%20Recorder.md)                                                                     |
-| [JEP 329](https://openjdk.java.net/jeps/329) | [ChaCha20 and Poly1305 Cryptographic Algorithms](Java%2011/JEP%20329%20-%20ChaCha20%20and%20Poly1305%20Cryptographic%20Algorithms.md) |
-| [JEP 330](https://openjdk.java.net/jeps/330) | [Launch Single-File Source-Code Programs](Java%2011/JEP%20330%20-%20Launch%20Single-File%20Source-Code%20Programs.md)                 |
-| [JEP 331](https://openjdk.java.net/jeps/331) | [Low-Overhead Heap Profiling](Java%2011/JEP%20331%20-%20Low-Overhead%20Heap%20Profiling.md)                                           |
-| [JEP 332](https://openjdk.java.net/jeps/332) | [Transport Layer Security (TLS) 1.3](Java%2011/)                                                                                      |
-| [JEP 333](https://openjdk.java.net/jeps/333) | [ZGC: A Scalable Low-Latency Garbage Collector (Experimental)](Java%2011/)                                                            |
-| [JEP 335](https://openjdk.java.net/jeps/335) | [Deprecate the Nashorn JavaScript Engine](Java%2011/)                                                                                 |
-| [JEP 336](https://openjdk.java.net/jeps/336) | [Deprecate the Pack200 Tools and API](Java%2011/)                                                                                     |
+| JEP                                          | Description                                                                                                                                            |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [JEP 181](https://openjdk.java.net/jeps/181) | [Nest-Based Access Control](Java%2011/JEP%20181%20-%20Nest-Based%20Access%20Control.md)                                                                |
+| [JEP 309](https://openjdk.java.net/jeps/309) | [Dynamic Class-File Constants](Java%2011/JEP%20309%20-%20Dynamic%20Class-File%20Constants.md)                                                          |
+| [JEP 315](https://openjdk.java.net/jeps/315) | [Improve Aarch64 Intrinsics](Java%2011/JEP%20315%20-%20Improve%20Aarch64%20Intrinsics.md)                                                              |
+| [JEP 318](https://openjdk.java.net/jeps/318) | [Epsilon: A No-Op Garbage Collector](Java%2011/JEP%20318%20-%20Epsilon%3A%20A%20No-Op%20Garbage%20Collector.md)                                        |
+| [JEP 320](https://openjdk.java.net/jeps/320) | [Remove the Java EE and CORBA Modules](Java%2011/JEP%20320%20-%20Remove%20the%20Java%20EE%20and%20CORBA%20Modules.md)                                  |
+| [JEP 321](https://openjdk.java.net/jeps/321) | [HTTP Client (Standard)](Java%2011/JEP%20321%20-%20HTTP%20Client%20%28Standard%29.md)                                                                  |
+| [JEP 323](https://openjdk.java.net/jeps/323) | [Local-Variable Syntax for Lambda Parameters](Java%2011/JEP%20323%20-%20Local-Variable%20Syntax%20for%20Lambda%20Parameters.md)                        |
+| [JEP 324](https://openjdk.java.net/jeps/324) | [Key Agreement with Curve25519 and Curve448](Java%2011/JEP%20324%20-%20Key%20Agreement%20with%20Curve25519%20and%20Curve448.md)                        |
+| [JEP 327](https://openjdk.java.net/jeps/327) | [Unicode 10](Java%2011/JEP%20327%20-%20Unicode%2010.md)                                                                                                |
+| [JEP 328](https://openjdk.java.net/jeps/328) | [Flight Recorder](Java%2011/JEP%20328%20-%20Flight%20Recorder.md)                                                                                      |
+| [JEP 329](https://openjdk.java.net/jeps/329) | [ChaCha20 and Poly1305 Cryptographic Algorithms](Java%2011/JEP%20329%20-%20ChaCha20%20and%20Poly1305%20Cryptographic%20Algorithms.md)                  |
+| [JEP 330](https://openjdk.java.net/jeps/330) | [Launch Single-File Source-Code Programs](Java%2011/JEP%20330%20-%20Launch%20Single-File%20Source-Code%20Programs.md)                                  |
+| [JEP 331](https://openjdk.java.net/jeps/331) | [Low-Overhead Heap Profiling](Java%2011/JEP%20331%20-%20Low-Overhead%20Heap%20Profiling.md)                                                            |
+| [JEP 332](https://openjdk.java.net/jeps/332) | [Transport Layer Security (TLS) 1.3](Java%2011/JEP%20332%20-%20Transport%20Layer%20Security%20%28TLS%29%201.3.md)                                      |
+| [JEP 333](https://openjdk.java.net/jeps/333) | [ZGC: A Scalable Low-Latency Garbage Collector (Experimental)](Java%2011/JEP%20333%20-%20ZGC%3A%20A%20Scalable%20Low-Latency%20Garbage%20Collector.md) |
+| [JEP 335](https://openjdk.java.net/jeps/335) | [Deprecate the Nashorn JavaScript Engine](Java%2011/JEP%20335%20-%20Deprecate%20the%20Nashorn%20JavaScript%20Engine.md)                                |
+| [JEP 336](https://openjdk.java.net/jeps/336) | [Deprecate the Pack200 Tools and API](Java%2011/JEP%20336%20-%20Deprecate%20the%20Pack200%20Tools%20and%20API.md)                                      |
 
 ## Java 12 (non-LTS)
 
