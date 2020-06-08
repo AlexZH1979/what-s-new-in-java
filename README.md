@@ -22,61 +22,63 @@ The [Java SE 8 Platform](https://openjdk.java.net/projects/jdk8/) was defined by
 
 ### New Features
 
---/-- 126 Lambda Expressions & Virtual Extension Methods
-138 Autoconf-Based Build System
-160 Lambda-Form Representation for Method Handles
-161 Compact Profiles
-162 Prepare for Modularization
-164 Leverage CPU Instructions for AES Cryptography
-174 Nashorn JavaScript Engine
-176 Mechanical Checking of Caller-Sensitive Methods
-179 Document JDK API Support and Stability
-vm/-- 142 Reduce Cache Contention on Specified Fields
-vm/gc 122 Remove the Permanent Generation
-173 Retire Some Rarely-Used GC Combinations
-vm/rt 136 Enhanced Verification Errors
-147 Reduce Class Metadata Footprint
-148 Small VM
-171 Fence Intrinsics
-core/-- 153 Launch JavaFX Applications
-core/lang 101 Generalized Target-Type Inference
-104 Annotations on Java Types
-105 DocTree API
-106 Add Javadoc to javax.tools
-117 Remove the Annotation-Processing Tool (apt)
-118 Access to Parameter Names at Runtime
-120 Repeating Annotations
-139 Enhance javac to Improve Build Speed
-172 DocLint
-core/libs 103 Parallel Array Sorting
-107 Bulk Data Operations for Collections
-109 Enhance Core Libraries with Lambda
-112 Charset Implementation Improvements
-119 javax.lang.model Implementation Backed by Core Reflection
-135 Base64 Encoding & Decoding
-149 Reduce Core-Library Memory Usage
-150 Date & Time API
-155 Concurrency Updates
-170 JDBC 4.2
-177 Optimize java.text.DecimalFormat.format
-178 Statically-Linked JNI Libraries
-180 Handle Frequent HashMap Collisions with Balanced Trees
-core/i18n 127 Improve Locale Data Packaging and Adopt Unicode CLDR Data
-128 BCP 47 Locale Matching
-133 Unicode 6.2
-core/net 184 HTTP URL Permissions
-core/sec 113 MS-SFU Kerberos 5 Extensions
-114 TLS Server Name Indication (SNI) Extension
-115 AEAD CipherSuites
-121 Stronger Algorithms for Password-Based Encryption
-123 Configurable Secure Random-Number Generation
-124 Enhance the Certificate Revocation-Checking API
-129 NSA Suite B Cryptographic Algorithms
-130 SHA-224 Message Digests
-131 PKCS#11 Crypto Provider for 64-bit Windows
-140 Limited doPrivileged
-166 Overhaul JKS-JCEKS-PKCS12 Keystores
-web/jaxp 185 Restrict Fetching of External XML Resources
+| JEP                                          | Description                                                                                                                                                        |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [JEP 126](https://openjdk.java.net/jeps/126) | [Lambda Expressions & Virtual Extension Methods](Java%208/JEP%20126%20-%20Lambda%20Expressions%20&%20Virtual%20Extension%20Methods.md)                             |
+| [JEP 138](https://openjdk.java.net/jeps/138) | [Autoconf-Based Build System](Java%208/JEP%20138%20-%20Autoconf-Based%20Build%20System.md)                                                                         |
+| [JEP 160](https://openjdk.java.net/jeps/160) | [Lambda-Form Representation for Method Handles](Java%208/JEP%20160%20-%20Lambda-Form%20Representation%20for%20Method%20Handles.md)                                 |
+| [JEP 161](https://openjdk.java.net/jeps/161) | [Compact Profiles](Java%208/JEP%20161%20-%20Compact%20Profiles.md)                                                                                                 |
+| [JEP 162](https://openjdk.java.net/jeps/162) | [Prepare for Modularization](Java%208/JEP%20162%20-%20Prepare%20for%20Modularization.md)                                                                           |
+| [JEP 164](https://openjdk.java.net/jeps/164) | [Leverage CPU Instructions for AES Cryptography](Java%208/JEP%20164%20-%20Leverage%20CPU%20Instructions%20for%20AES%20Cryptography.md)                             |
+| [JEP 174](https://openjdk.java.net/jeps/174) | [Nashorn JavaScript Engine](Java%208/JEP%20174%20-%20Nashorn%20JavaScript%20Engine.md)                                                                             |
+| [JEP 176](https://openjdk.java.net/jeps/176) | [Mechanical Checking of Caller-Sensitive Methods](Java%208/JEP%20176%20-%20Mechanical%20Checking%20of%20Caller-Sensitive%20Methods.md)                             |
+| [JEP 179](https://openjdk.java.net/jeps/179) | [Document JDK API Support and Stability](Java%208/JEP%20179%20-%20Document%20JDK%20API%20Support%20and%20Stability.md)                                             |
+| [JEP 142](https://openjdk.java.net/jeps/142) | [Reduce Cache Contention on Specified Fields](Java%208/JEP%20142%20-%20Reduce%20Cache%20Contention%20on%20Specified%20Fields.md)                                   |
+| [JEP 122](https://openjdk.java.net/jeps/122) | [Remove the Permanent Generation](Java%208/JEP%20122%20-%20Remove%20the%20Permanent%20Generation.md)                                                               |
+| [JEP 173](https://openjdk.java.net/jeps/173) | [Retire Some Rarely-Used GC Combinations](Java%208/JEP%20173%20-%20Retire%20Some%20Rarely-Used%20GC%20Combinations.md)                                             |
+| [JEP 136](https://openjdk.java.net/jeps/136) | [Enhanced Verification Errors](Java%208/JEP%20136%20-%20Enhanced%20Verification%20Errors.md)                                                                       |
+| [JEP 147](https://openjdk.java.net/jeps/147) | [Reduce Class Metadata Footprint](Java%208/JEP%20147%20-%20Reduce%20Class%20Metadata%20Footprint.md)                                                               |
+| [JEP 148](https://openjdk.java.net/jeps/148) | [Small VM](Java%208/JEP%20148%20-%20Small%20VM.md)                                                                                                                 |
+| [JEP 171](https://openjdk.java.net/jeps/171) | [Fence Intrinsics](Java%208/JEP%20171%20-%20Fence%20Intrinsics.md)                                                                                                 |
+| [JEP 153](https://openjdk.java.net/jeps/153) | [Launch JavaFX Applications](Java%208/JEP%20153%20-%20Launch%20JavaFX%20Applications.md)                                                                           |
+| [JEP 101](https://openjdk.java.net/jeps/101) | [Generalized Target-Type Inference](Java%208/JEP%20101%20-%20Generalized%20Target-Type%20Inference.md)                                                             |
+| [JEP 104](https://openjdk.java.net/jeps/104) | [Annotations on Java Types](Java%208/JEP%20104%20-%20Annotations%20on%20Java%20Types.md)                                                                           |
+| [JEP 105](https://openjdk.java.net/jeps/105) | [DocTree API](Java%208/JEP%20105%20-%20DocTree%20API.md)                                                                                                           |
+| [JEP 106](https://openjdk.java.net/jeps/106) | [Add Javadoc to javax.tools](Java%208/JEP%20106%20-%20Add%20Javadoc%20to%20javax.tools.md)                                                                         |
+| [JEP 117](https://openjdk.java.net/jeps/117) | [Remove the Annotation-Processing Tool (apt)](Java%208/JEP%20117%20-%20Remove%20the%20Annotation-Processing%20Tool%20%28apt%29.md)                                 |
+| [JEP 118](https://openjdk.java.net/jeps/118) | [Access to Parameter Names at Runtime](Java%208/JEP%20118%20-%20Access%20to%20Parameter%20Names%20at%20Runtime.md)                                                 |
+| [JEP 120](https://openjdk.java.net/jeps/120) | [Repeating Annotations](Java%208/JEP%20120%20-%20Repeating%20Annotations.md)                                                                                       |
+| [JEP 139](https://openjdk.java.net/jeps/139) | [Enhance javac to Improve Build Speed](Java%208/JEP%20139%20-%20Enhance%20javac%20to%20Improve%20Build%20Speed.md)                                                 |
+| [JEP 172](https://openjdk.java.net/jeps/172) | [DocLint](Java%208/JEP%20172%20-%20DocLint.md)                                                                                                                     |
+| [JEP 103](https://openjdk.java.net/jeps/103) | [Parallel Array Sorting](Java%208/JEP%20103%20-%20Parallel%20Array%20Sorting.md)                                                                                   |
+| [JEP 107](https://openjdk.java.net/jeps/107) | [Bulk Data Operations for Collections](Java%208/JEP%20107%20-%20Bulk%20Data%20Operations%20for%20Collections.md)                                                   |
+| [JEP 109](https://openjdk.java.net/jeps/109) | [Enhance Core Libraries with Lambda](Java%208/JEP%20109%20-%20Enhance%20Core%20Libraries%20with%20Lambda.md)                                                       |
+| [JEP 112](https://openjdk.java.net/jeps/112) | [Charset Implementation Improvements](Java%208/JEP%20112%20-%20Charset%20Implementation%20Improvements.md)                                                         |
+| [JEP 119](https://openjdk.java.net/jeps/119) | [javax.lang.model Implementation Backed by Core Reflection](Java%208/JEP%20119%20-%20javax.lang.model%20Implementation%20Backed%20by%20Core%20Reflection.md)       |
+| [JEP 135](https://openjdk.java.net/jeps/135) | [Base64 Encoding & Decoding](Java%208/JEP%20135%20-%20Base64%20Encoding%20&%20Decoding.md)                                                                         |
+| [JEP 149](https://openjdk.java.net/jeps/149) | [Reduce Core-Library Memory Usage](Java%208/JEP%20149%20-%20Reduce%20Core-Library%20Memory%20Usage.md)                                                             |
+| [JEP 150](https://openjdk.java.net/jeps/150) | [Date & Time API](Java%208/JEP%20150%20-%20Date%20&%20Time%20API.md)                                                                                               |
+| [JEP 155](https://openjdk.java.net/jeps/155) | [Concurrency Updates](Java%208/JEP%20155%20-%20Concurrency%20Updates.md)                                                                                           |
+| [JEP 170](https://openjdk.java.net/jeps/170) | [JDBC 4.2](Java%208/JEP%20170%20-%20JDBC%204.2.md)                                                                                                                 |
+| [JEP 177](https://openjdk.java.net/jeps/177) | [Optimize java.text.DecimalFormat.format](Java%208/JEP%20177%20-%20Optimize%20java.text.DecimalFormat.format.md)                                                   |
+| [JEP 178](https://openjdk.java.net/jeps/178) | [Statically-Linked JNI Libraries](Java%208/JEP%20178%20-%20Statically-Linked%20JNI%20Libraries.md)                                                                 |
+| [JEP 180](https://openjdk.java.net/jeps/180) | [Handle Frequent HashMap Collisions with Balanced Trees](Java%208/JEP%20180%20-%20Handle%20Frequent%20HashMap%20Collisions%20with%20Balanced%20Trees.md)           |
+| [JEP 127](https://openjdk.java.net/jeps/127) | [Improve Locale Data Packaging and Adopt Unicode CLDR Data](Java%208/JEP%20127%20-%20Improve%20Locale%20Data%20Packaging%20and%20Adopt%20Unicode%20CLDR%20Data.md) |
+| [JEP 128](https://openjdk.java.net/jeps/128) | [BCP 47 Locale Matching](Java%208/JEP%20128%20-%20BCP%2047%20Locale%20Matching.md)                                                                                 |
+| [JEP 133](https://openjdk.java.net/jeps/133) | [Unicode 6.2](Java%208/JEP%20133%20-%20Unicode%206.2.md)                                                                                                           |
+| [JEP 184](https://openjdk.java.net/jeps/184) | [HTTP URL Permissions](Java%208/JEP%20184%20-%20HTTP%20URL%20Permissions.md)                                                                                       |
+| [JEP 113](https://openjdk.java.net/jeps/113) | [MS-SFU Kerberos 5 Extensions](Java%208/JEP%20113%20-%20MS-SFU%20Kerberos%205%20Extensions.md)                                                                     |
+| [JEP 114](https://openjdk.java.net/jeps/114) | [TLS Server Name Indication (SNI) Extension](Java%208/JEP%20114%20-%20TLS%20Server%20Name%20Indication%20%28SNI%29%20Extension.md)                                 |
+| [JEP 115](https://openjdk.java.net/jeps/115) | [AEAD CipherSuites](Java%208/JEP%20115%20-%20AEAD%20CipherSuites.md)                                                                                               |
+| [JEP 121](https://openjdk.java.net/jeps/121) | [Stronger Algorithms for Password-Based Encryption](Java%208/JEP%20121%20-%20Stronger%20Algorithms%20for%20Password-Based%20Encryption.md)                         |
+| [JEP 123](https://openjdk.java.net/jeps/123) | [Configurable Secure Random-Number Generation](Java%208/JEP%20123%20-%20Configurable%20Secure%20Random-Number%20Generation.md)                                     |
+| [JEP 124](https://openjdk.java.net/jeps/124) | [Enhance the Certificate Revocation-Checking API](Java%208/JEP%20124%20-%20Enhance%20the%20Certificate%20Revocation-Checking%20API.md)                             |
+| [JEP 129](https://openjdk.java.net/jeps/129) | [NSA Suite B Cryptographic Algorithms](Java%208/JEP%20129%20-%20NSA%20Suite%20B%20Cryptographic%20Algorithms.md)                                                   |
+| [JEP 130](https://openjdk.java.net/jeps/130) | [SHA-224 Message Digests](Java%208/JEP%20130%20-%20SHA-224%20Message%20Digests.md)                                                                                 |
+| [JEP 131](https://openjdk.java.net/jeps/131) | [PKCS#11 Crypto Provider for 64-bit Windows](Java%208/JEP%20131%20-%20PKCS#11%20Crypto%20Provider%20for%2064-bit%20Windows.md)                                     |
+| [JEP 140](https://openjdk.java.net/jeps/140) | [Limited doPrivileged](Java%208/JEP%20140%20-%20Limited%20doPrivileged.md)                                                                                         |
+| [JEP 166](https://openjdk.java.net/jeps/166) | [Overhaul JKS-JCEKS-PKCS12 Keystores](Java%208/JEP%20166%20-%20Overhaul%20JKS-JCEKS-PKCS12%20Keystores.md)                                                         |
+| [JEP 185](https://openjdk.java.net/jeps/185) | [Restrict Fetching of External XML Resources](Java%208/JEP%20185%20-%20Restrict%20Fetching%20of%20External%20XML%20Resources.md)                                   |
 
 ## Java 9 (non-LTS)
 
